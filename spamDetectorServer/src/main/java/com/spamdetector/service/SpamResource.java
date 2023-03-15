@@ -80,7 +80,7 @@ public class SpamResource {
      * Endpoint URL: http://localhost:8080/spamDetector-1.0/api/spam/view
      * **/
     public Response readBook() throws IOException {
-        URL url = this.getClass().getClassLoader().getResource("/data/test/ham_data");
+        URL url = this.getClass().getClassLoader().getResource("/data/train/ham_data");
         File data = null;
         try {
             data = new File(url.toURI());
