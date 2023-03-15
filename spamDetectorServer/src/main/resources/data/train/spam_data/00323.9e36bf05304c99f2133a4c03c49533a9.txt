@@ -1,0 +1,16 @@
+by : 8
+d : 1
+esmtp : 4
+for : 5
+from : 7
+id : 7
+internet : 1
+localhost : 1
+mail : 1
+mon : 1
+sep : 11
+server : 1
+smtp : 2
+userid : 1
+via : 1
+with : 6

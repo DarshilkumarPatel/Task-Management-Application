@@ -1,0 +1,12 @@
+aug : 6
+by : 4
+esmtp : 1
+for : 3
+from : 4
+id : 2
+invoked : 1
+localhost : 2
+mon : 1
+smtp : 1
+uid : 1
+with : 3

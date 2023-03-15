@@ -1,0 +1,12 @@
+amazing : 1
+by : 4
+esmtp : 2
+for : 4
+from : 5
+id : 3
+jul : 5
+localhost : 2
+smtp : 1
+t : 1
+tue : 1
+with : 4

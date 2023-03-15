@@ -1,0 +1,10 @@
+by : 5
+esmtp : 3
+est : 1
+for : 4
+from : 5
+id : 5
+jul : 5
+localhost : 2
+smtp : 2
+with : 5

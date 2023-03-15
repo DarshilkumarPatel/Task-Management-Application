@@ -1,0 +1,15 @@
+by : 3
+esmtp : 2
+express : 1
+for : 3
+fri : 1
+from : 4
+id : 2
+imap : 1
+jalapeno : 1
+localhost : 2
+microsoft : 1
+outlook : 1
+sep : 5
+tex : 1
+with : 3

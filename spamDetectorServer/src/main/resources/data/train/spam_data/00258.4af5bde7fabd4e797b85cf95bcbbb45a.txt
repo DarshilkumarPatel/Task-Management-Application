@@ -1,0 +1,16 @@
+by : 8
+esmtp : 3
+for : 4
+from : 6
+id : 6
+invoked : 1
+localhost : 1
+newsletter : 1
+sep : 11
+septembre : 1
+smtp : 2
+tue : 1
+uid : 1
+userid : 1
+via : 1
+with : 5

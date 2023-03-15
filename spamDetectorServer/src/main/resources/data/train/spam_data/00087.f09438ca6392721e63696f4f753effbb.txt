@@ -1,0 +1,17 @@
+aug : 7
+by : 5
+egroups : 1
+esmtp : 2
+for : 5
+from : 6
+id : 3
+imap : 1
+localhost : 2
+message : 1
+mon : 1
+normal : 2
+only : 1
+phobos : 1
+poster : 1
+smtp : 1
+with : 5

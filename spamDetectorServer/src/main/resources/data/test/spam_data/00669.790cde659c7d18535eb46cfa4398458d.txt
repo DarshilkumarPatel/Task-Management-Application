@@ -1,0 +1,15 @@
+by : 3
+for : 2
+from : 4
+id : 1
+internet : 1
+jun : 6
+mail : 1
+mon : 1
+normal : 2
+only : 1
+service : 1
+smtp : 1
+sun : 1
+unknown : 2
+with : 3

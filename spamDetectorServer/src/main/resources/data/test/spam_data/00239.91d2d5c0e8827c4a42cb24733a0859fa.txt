@@ -1,0 +1,15 @@
+by : 4
+esmtp : 2
+for : 4
+from : 6
+id : 3
+imap : 1
+jul : 3
+linux : 1
+localhost : 2
+may : 2
+on : 1
+smtp : 1
+suse : 1
+wed : 1
+with : 4

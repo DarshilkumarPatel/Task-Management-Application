@@ -1,0 +1,14 @@
+aug : 8
+by : 6
+esmtp : 1
+express : 1
+for : 3
+from : 7
+id : 2
+localhost : 2
+microsoft : 1
+normal : 2
+outlook : 1
+smtp : 1
+thu : 1
+with : 6

@@ -1,0 +1,16 @@
+aol : 1
+by : 4
+esmtp : 1
+for : 4
+from : 5
+id : 2
+jul : 6
+localhost : 2
+normal : 2
+smtp : 1
+sub : 1
+us : 1
+wed : 1
+windows : 1
+with : 4
+your : 1

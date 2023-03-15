@@ -1,0 +1,13 @@
+am : 3
+by : 5
+esmtp : 1
+for : 2
+fri : 1
+from : 6
+id : 2
+jun : 4
+mon : 1
+phddben : 1
+smtp : 1
+tactor : 1
+with : 5

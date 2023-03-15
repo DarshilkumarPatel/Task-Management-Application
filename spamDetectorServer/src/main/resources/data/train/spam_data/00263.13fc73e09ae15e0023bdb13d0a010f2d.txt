@@ -1,0 +1,13 @@
+by : 8
+esmtp : 3
+for : 4
+from : 8
+id : 6
+invoked : 1
+localhost : 1
+sat : 1
+sep : 12
+smtp : 2
+userid : 1
+via : 1
+with : 6

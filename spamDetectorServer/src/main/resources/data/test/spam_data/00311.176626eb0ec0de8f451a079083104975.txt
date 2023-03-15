@@ -1,0 +1,17 @@
+by : 4
+esmtp : 3
+exchange : 1
+for : 2
+from : 5
+id : 4
+internet : 1
+jun : 1
+mail : 1
+may : 6
+mon : 1
+service : 1
+smtp : 1
+sneezy : 1
+version : 1
+wed : 1
+with : 4

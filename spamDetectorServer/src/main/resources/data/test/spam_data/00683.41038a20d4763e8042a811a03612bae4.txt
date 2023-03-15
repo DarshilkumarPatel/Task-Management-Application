@@ -1,0 +1,14 @@
+adult : 1
+am : 3
+apr : 1
+by : 5
+esmtp : 1
+for : 2
+from : 6
+id : 2
+jun : 4
+membership : 1
+mon : 2
+smtp : 1
+unknown : 1
+with : 5

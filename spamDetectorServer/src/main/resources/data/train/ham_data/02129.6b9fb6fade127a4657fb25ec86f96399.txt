@@ -1,0 +1,17 @@
+actually : 1
+by : 3
+esmtp : 2
+fark : 1
+for : 3
+from : 4
+id : 2
+imap : 1
+is : 1
+jalapeno : 1
+localhost : 2
+madonna : 1
+oct : 5
+quite : 1
+shy : 1
+tue : 1
+with : 3

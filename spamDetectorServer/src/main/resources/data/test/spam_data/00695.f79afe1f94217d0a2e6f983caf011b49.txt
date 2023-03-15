@@ -1,0 +1,17 @@
+an : 1
+by : 4
+cell : 1
+cl : 1
+esmtp : 2
+for : 4
+from : 5
+id : 3
+jun : 7
+mailer : 1
+mime : 1
+mon : 1
+normal : 1
+phone : 1
+smtp : 2
+tue : 1
+with : 4

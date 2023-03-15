@@ -1,0 +1,15 @@
+and : 1
+aug : 6
+by : 4
+esmtp : 1
+find : 1
+for : 3
+from : 5
+happiness : 1
+id : 3
+localhost : 2
+right : 1
+smtp : 2
+smtprs : 1
+wed : 1
+with : 4

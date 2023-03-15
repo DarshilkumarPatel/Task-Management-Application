@@ -1,0 +1,15 @@
+aug : 5
+by : 3
+cron : 1
+esmtp : 1
+for : 3
+from : 3
+id : 2
+imap : 1
+localhost : 2
+no : 2
+phobos : 1
+pid : 2
+such : 2
+wed : 1
+with : 2

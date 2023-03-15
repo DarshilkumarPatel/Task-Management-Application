@@ -1,0 +1,10 @@
+be : 1
+by : 3
+esmtp : 2
+for : 3
+fri : 1
+from : 4
+get : 1
+id : 2
+jun : 5
+with : 3

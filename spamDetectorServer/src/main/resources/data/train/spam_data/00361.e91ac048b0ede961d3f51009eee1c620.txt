@@ -1,0 +1,17 @@
+bulk : 1
+by : 6
+esmtp : 4
+for : 5
+from : 7
+group : 1
+hello : 1
+id : 5
+imap : 1
+irish : 1
+jalapeno : 1
+linux : 1
+localhost : 2
+sep : 8
+smtp : 1
+wed : 1
+with : 6

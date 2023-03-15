@@ -1,0 +1,17 @@
+by : 3
+esmtp : 2
+for : 3
+from : 4
+gamasutra : 1
+id : 2
+imap : 1
+is : 1
+jalapeno : 1
+localhost : 2
+mon : 1
+office : 1
+real : 1
+sep : 5
+the : 1
+this : 1
+with : 3

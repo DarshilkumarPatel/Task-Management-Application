@@ -1,0 +1,17 @@
+another : 1
+by : 3
+esmtp : 2
+fine : 1
+for : 3
+from : 4
+got : 1
+guardian : 1
+id : 2
+imap : 1
+jalapeno : 1
+localhost : 2
+mess : 1
+myself : 1
+oct : 5
+sun : 1
+with : 3

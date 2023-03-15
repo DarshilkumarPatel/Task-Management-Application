@@ -1,0 +1,15 @@
+aug : 5
+by : 4
+esmtp : 2
+exchange : 1
+for : 3
+from : 5
+id : 3
+internet : 1
+localhost : 2
+mail : 1
+service : 1
+smtp : 1
+tue : 1
+version : 1
+with : 4

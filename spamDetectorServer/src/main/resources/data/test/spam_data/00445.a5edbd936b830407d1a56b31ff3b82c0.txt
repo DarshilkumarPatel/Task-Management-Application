@@ -1,0 +1,15 @@
+ajrule : 1
+by : 3
+day : 1
+esmtp : 3
+for : 2
+fri : 1
+from : 4
+herbal : 1
+id : 3
+jun : 1
+list : 1
+may : 5
+mon : 1
+viagra : 1
+with : 3

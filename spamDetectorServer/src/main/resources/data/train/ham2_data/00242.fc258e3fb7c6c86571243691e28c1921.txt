@@ -1,0 +1,17 @@
+by : 3
+cuteftp : 1
+esmtp : 1
+for : 3
+fri : 1
+from : 4
+globalscape : 1
+gmt : 1
+id : 2
+imap : 1
+jalapeno : 1
+localhost : 2
+normal : 2
+nov : 5
+pro : 1
+smtp : 1
+with : 3

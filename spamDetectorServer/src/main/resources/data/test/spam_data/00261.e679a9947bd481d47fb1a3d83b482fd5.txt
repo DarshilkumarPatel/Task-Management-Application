@@ -1,0 +1,15 @@
+business : 1
+by : 4
+esmtp : 3
+for : 4
+from : 5
+grow : 1
+id : 4
+jun : 1
+mana : 1
+may : 5
+mon : 1
+sat : 1
+smtp : 1
+with : 4
+your : 1

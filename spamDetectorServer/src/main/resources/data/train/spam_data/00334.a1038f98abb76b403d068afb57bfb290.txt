@@ -1,0 +1,16 @@
+a : 1
+by : 2
+esmtp : 1
+for : 3
+fri : 1
+from : 2
+id : 1
+it : 1
+kind : 1
+money : 1
+of : 1
+one : 1
+sep : 4
+smtp : 1
+try : 1
+with : 2

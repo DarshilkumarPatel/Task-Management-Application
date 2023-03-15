@@ -1,0 +1,17 @@
+ba : 1
+by : 4
+effective : 1
+esmtp : 2
+for : 3
+from : 4
+gamasutra : 1
+id : 2
+imap : 1
+jalapeno : 1
+localhost : 2
+management : 1
+memory : 1
+mon : 1
+oct : 5
+play : 1
+with : 3

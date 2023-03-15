@@ -1,0 +1,12 @@
+by : 5
+esmtp : 4
+for : 4
+from : 6
+gmt : 2
+id : 3
+imap : 1
+jalapeno : 1
+localhost : 2
+nov : 5
+sat : 1
+with : 5

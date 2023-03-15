@@ -1,0 +1,12 @@
+by : 5
+dm : 1
+easy : 1
+esmtp : 3
+for : 5
+free : 1
+from : 7
+id : 5
+sep : 9
+smtp : 2
+tue : 1
+with : 5

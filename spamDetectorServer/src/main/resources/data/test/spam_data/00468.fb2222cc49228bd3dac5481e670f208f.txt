@@ -1,0 +1,14 @@
+accept : 1
+as : 1
+by : 3
+credit : 1
+easy : 1
+esmtp : 2
+for : 2
+from : 4
+id : 3
+jun : 1
+may : 5
+mon : 2
+smtp : 1
+with : 3

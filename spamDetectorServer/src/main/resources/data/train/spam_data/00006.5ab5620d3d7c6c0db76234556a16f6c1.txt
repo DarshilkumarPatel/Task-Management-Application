@@ -1,0 +1,10 @@
+aug : 5
+by : 4
+esmtp : 3
+for : 3
+freesource : 1
+from : 5
+id : 3
+localhost : 2
+thu : 1
+with : 4

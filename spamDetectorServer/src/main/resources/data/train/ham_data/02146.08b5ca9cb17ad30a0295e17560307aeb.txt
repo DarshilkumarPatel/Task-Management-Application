@@ -1,0 +1,17 @@
+by : 3
+esmtp : 2
+fark : 1
+for : 3
+from : 4
+id : 2
+imap : 1
+jalapeno : 1
+localhost : 2
+oct : 5
+photoshop : 1
+smuggle : 1
+to : 1
+tue : 1
+uranium : 1
+ways : 1
+with : 3

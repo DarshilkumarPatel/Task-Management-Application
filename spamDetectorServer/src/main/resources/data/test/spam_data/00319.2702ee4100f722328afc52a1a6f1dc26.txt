@@ -1,0 +1,16 @@
+by : 3
+email : 1
+esmtp : 2
+for : 3
+from : 4
+id : 3
+jun : 1
+marketing : 1
+may : 5
+mon : 1
+of : 1
+power : 1
+smtp : 1
+the : 1
+wed : 1
+with : 3

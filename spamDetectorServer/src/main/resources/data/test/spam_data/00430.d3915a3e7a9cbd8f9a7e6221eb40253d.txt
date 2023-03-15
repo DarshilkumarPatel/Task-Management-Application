@@ -1,0 +1,17 @@
+business : 1
+by : 4
+esmtp : 2
+for : 3
+from : 5
+id : 3
+iraq : 1
+is : 1
+jun : 1
+may : 6
+mon : 1
+next : 1
+normal : 2
+smtp : 1
+the : 1
+thu : 1
+with : 4

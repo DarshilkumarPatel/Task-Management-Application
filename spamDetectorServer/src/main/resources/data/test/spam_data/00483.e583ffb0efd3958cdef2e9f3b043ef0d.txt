@@ -1,0 +1,16 @@
+by : 3
+day : 1
+esmtp : 2
+for : 2
+from : 4
+herbal : 1
+id : 2
+jun : 1
+list : 1
+may : 6
+microsoft : 1
+mon : 2
+oncxbv : 1
+pmoney : 1
+viagra : 1
+with : 3

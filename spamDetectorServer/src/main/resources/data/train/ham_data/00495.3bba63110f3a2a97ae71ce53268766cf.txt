@@ -1,0 +1,16 @@
+big : 1
+bulk : 1
+by : 6
+educational : 1
+esmtp : 5
+for : 4
+from : 7
+id : 5
+imap : 1
+jalapeno : 1
+jump : 1
+localhost : 2
+sep : 7
+sun : 1
+the : 2
+with : 6

@@ -1,0 +1,17 @@
+by : 3
+depraved : 1
+esmtp : 2
+fark : 1
+for : 5
+from : 4
+id : 2
+imap : 1
+jalapeno : 1
+localhost : 2
+not : 1
+oct : 5
+pics : 1
+safe : 1
+tue : 1
+with : 3
+work : 1

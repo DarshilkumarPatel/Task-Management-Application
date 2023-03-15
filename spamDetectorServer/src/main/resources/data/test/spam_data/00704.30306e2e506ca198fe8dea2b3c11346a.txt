@@ -1,0 +1,12 @@
+by : 15
+esmtp : 9
+for : 13
+from : 13
+hotmail : 1
+id : 14
+imap : 1
+jul : 16
+localhost : 2
+smtp : 2
+wed : 1
+with : 12

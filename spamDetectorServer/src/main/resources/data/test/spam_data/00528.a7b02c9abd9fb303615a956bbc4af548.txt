@@ -1,0 +1,11 @@
+be : 1
+by : 3
+esmtp : 2
+for : 1
+fri : 1
+from : 3
+id : 3
+jun : 1
+may : 5
+mon : 1
+with : 2

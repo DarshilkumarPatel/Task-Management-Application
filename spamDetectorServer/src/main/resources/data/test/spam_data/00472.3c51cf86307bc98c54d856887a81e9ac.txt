@@ -1,0 +1,13 @@
+by : 3
+esmtp : 2
+for : 2
+from : 4
+get : 1
+go : 1
+id : 2
+jun : 1
+may : 6
+microsoft : 1
+mon : 2
+stoned : 1
+with : 3

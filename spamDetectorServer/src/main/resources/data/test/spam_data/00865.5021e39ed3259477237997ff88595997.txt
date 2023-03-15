@@ -1,0 +1,15 @@
+build : 1
+by : 4
+esmtp : 2
+for : 4
+from : 5
+id : 3
+imap : 1
+jul : 6
+localhost : 2
+microsoft : 1
+mortgage : 1
+normal : 2
+smtp : 1
+tue : 1
+with : 4

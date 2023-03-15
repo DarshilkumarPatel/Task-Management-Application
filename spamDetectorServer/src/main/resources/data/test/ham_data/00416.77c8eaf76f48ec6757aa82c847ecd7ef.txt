@@ -1,0 +1,13 @@
+aug : 5
+be : 1
+by : 4
+claimed : 1
+esmtp : 4
+for : 2
+from : 4
+host : 1
+id : 4
+lugh : 1
+to : 1
+wed : 1
+with : 4

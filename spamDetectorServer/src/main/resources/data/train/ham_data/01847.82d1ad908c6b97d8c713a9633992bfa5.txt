@@ -1,0 +1,17 @@
+by : 3
+esmtp : 2
+for : 3
+from : 4
+gmt : 1
+id : 2
+imap : 1
+in : 2
+interop : 2
+jalapeno : 1
+localhost : 2
+paul : 2
+scripting : 1
+sep : 6
+the : 2
+tue : 1
+with : 3
