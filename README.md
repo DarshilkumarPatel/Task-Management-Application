@@ -3,8 +3,8 @@
 
 ##Group Members
 
-Mohammad Tasmim Abrar
-Darshil Patel
+Mohammad Tasmim Abrar,
+Darshil Patel,
 Muhammad Ali
 
 ## Project Information
