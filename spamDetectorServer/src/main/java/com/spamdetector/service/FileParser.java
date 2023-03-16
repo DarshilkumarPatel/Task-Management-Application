@@ -8,7 +8,7 @@ import java.util.*;
 public class FileParser {
     public Map<String, Integer> wordFrequencyIndividualDir(File dir) throws IOException { //function for individual files
         // create a directory to store the output files
-        File outputDir = new File(dir.getAbsolutePath() + "");
+        File outputDir = new File(dir.getAbsolutePath() + "/output");
         outputDir.mkdir();
 
         File[] filesInDir = dir.listFiles();
@@ -21,7 +21,7 @@ public class FileParser {
 
             Map<String, Integer> wordMap = countWordFile(inputFile);
 
-            // write the file wordMap to the output file
+            // Write wordmap to a file. We loop through
             try (PrintWriter writer = new PrintWriter(outputFile)) {
                 for (Map.Entry<String, Integer> entry : wordMap.entrySet()) {
                     writer.println(entry.getKey() + " : " + entry.getValue());
@@ -57,7 +57,6 @@ public class FileParser {
                     frequencies.put(word, count);
                 }
             }
-
         }
 
         return frequencies;
@@ -100,5 +99,9 @@ public class FileParser {
 
         return false;
 
+    }
+
+    public Map<String, Integer> parse(String spamFilePath) {
+        return null;
     }
 }

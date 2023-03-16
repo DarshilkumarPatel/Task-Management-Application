@@ -11,6 +11,58 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+/* The sidepanel menu */
+.sidepanel {
+  height: 250px; /* Specify a height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+}
+
+/* The sidepanel links */
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
 html {
   color: #222;
   font-size: 1em;
@@ -26,6 +78,7 @@ header {
   color: #FFA500;
   padding: 2px;
   text-align: left;
+  font-size: 13px;
 }
 footer {
   position:absolute;
@@ -35,20 +88,16 @@ footer {
   color: white;
   padding: 1px;
   text-align: center;
+  font-size: 12px;
 }
 
-.container {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-}
+/*.container {*/
+/*  display: flex;*/
+/*  flex-direction: row;*/
+/*  align-items: flex-start;*/
+/*}*/
 
-{
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-}
-
+/*just for the buttons on left side*/
 .container{
   display: flex;
   flex-direction: row;
@@ -59,6 +108,11 @@ footer {
   background-color: #FF8D33;
 }
 
+{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
 
 .buttons button {
   background-color: #FF8D33; /* Green background */
@@ -66,7 +120,7 @@ footer {
   color: #001540; /* White text */
   font-weight: bold;
   text-align: left;
-  font-size: 14px;
+  font-size: 12px;
   padding: 7px 24px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
   width: 294.5px; /* Set a width if needed */
@@ -77,280 +131,266 @@ footer {
   border-bottom: none; /* Prevent double borders */
 }
 
-/* Add a background color on hover */
-/*.btn-group button:hover {*/
-/*  background-color: #D3D3D3;*/
-/*}*/
-
 .buttons button:hover {
   background-color: #D3D3D3;
 }
 
-/*.buttons {*/
-/*  background-color: #333;*/
-/*  height: 100vh;*/
-/*  padding: 20px;*/
-/*  display: flex;*/
-/*  flex-direction: column;*/
-/*  justify-content: flex-start;*/
-/*  align-items: flex-start;*/
-/*}*/
-
-/*.buttons button {*/
-/*  display: block;*/
-/*  color: white;*/
-/*  background-color: #666;*/
-/*  border: none;*/
-/*  border-radius: 5px;*/
-/*  padding: 10px;*/
-/*  margin-bottom: 10px;*/
-/*  cursor: pointer;*/
-/*}*/
-
-/*.buttons button:hover {*/
-/*  background-color: #444;*/
-/*}*/
+/*Description part starts here. Dashboard and About page*/
 
 .description {
   flex: 1;
-  margin-left: 30px;
+  margin-left: 300px;
+  font-size: 12px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-}
-
-.description-item {
-  display: none;
 }
 
 .description-item.active {
   display: block;
 }
 
+.description-item {
+  display: none;
+}
 
-/*::-moz-selection {*/
-/*  background: #b3d4fc;*/
-/*  text-shadow: none;*/
-/*}*/
 
-/*::selection {*/
-/*  background: #b3d4fc;*/
-/*  text-shadow: none;*/
-/*}*/
+.boxes{
+  flex: 1;
+  margin-left: 750px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
 
-/*!**/
-/* * A better looking default horizontal rule*/
-/* *!*/
 
-/*!**/
-/* * Remove the gap between audio, canvas, iframes,*/
-/* * images, videos and the bottom of their containers:*/
-/* * https://github.com/h5bp/html5-boilerplate/issues/440*/
-/* *!*/
+/*Not required from here just Intellij stuff*/
 
-/*audio,*/
-/*canvas,*/
-/*iframe,*/
-/*img,*/
-/*svg,*/
-/*video {*/
-/*  vertical-align: middle;*/
-/*}*/
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
 
-/*!**/
-/* * Remove default fieldset styles.*/
-/* *!*/
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
 
-/*fieldset {*/
-/*  border: 0;*/
-/*  margin: 0;*/
-/*  padding: 0;*/
-/*}*/
+/*
+ * A better looking default horizontal rule
+ */
 
-/*!**/
-/* * Allow only vertical resizing of textareas.*/
-/* *!*/
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
 
-/*textarea {*/
-/*  resize: vertical;*/
-/*}*/
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
 
-/*!* ==========================================================================*/
-/*   Author's custom styles*/
-/*   ========================================================================== *!*/
+/*
+ * Remove default fieldset styles.
+ */
 
-/*!* ==========================================================================*/
-/*   Helper classes*/
-/*   ========================================================================== *!*/
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
 
-/*!**/
-/* * Hide visually and from screen readers*/
-/* *!*/
+/*
+ * Allow only vertical resizing of textareas.
+ */
 
-/*.hidden,*/
-/*[hidden] {*/
-/*  display: none !important;*/
-/*}*/
+textarea {
+  resize: vertical;
+}
 
-/*!**/
-/* * Hide only visually, but have it available for screen readers:*/
-/* * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility*/
-/* **/
-/* * 1. For long content, line feeds are not interpreted as spaces and small width*/
-/* *    causes content to wrap 1 word per line:*/
-/* *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe*/
-/* *!*/
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
 
-/*.sr-only {*/
-/*  border: 0;*/
-/*  clip: rect(0, 0, 0, 0);*/
-/*  height: 1px;*/
-/*  margin: -1px;*/
-/*  overflow: hidden;*/
-/*  padding: 0;*/
-/*  position: absolute;*/
-/*  white-space: nowrap;*/
-/*  width: 1px;*/
-/*  !* 1 *!*/
-/*}*/
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
 
-/*!**/
-/* * Extends the .sr-only class to allow the element*/
-/* * to be focusable when navigated to via the keyboard:*/
-/* * https://www.drupal.org/node/897638*/
-/* *!*/
+/*
+ * Hide visually and from screen readers
+ */
 
-/*.sr-only.focusable:active,*/
-/*.sr-only.focusable:focus {*/
-/*  clip: auto;*/
-/*  height: auto;*/
-/*  margin: 0;*/
-/*  overflow: visible;*/
-/*  position: static;*/
-/*  white-space: inherit;*/
-/*  width: auto;*/
-/*}*/
+.hidden,
+[hidden] {
+  display: none !important;
+}
 
-/*!**/
-/* * Hide visually and from screen readers, but maintain layout*/
-/* *!*/
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
 
-/*.invisible {*/
-/*  visibility: hidden;*/
-/*}*/
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
 
-/*!**/
-/* * Clearfix: contain floats*/
-/* **/
-/* * For modern browsers*/
-/* * 1. The space content is one way to avoid an Opera bug when the*/
-/* *    `contenteditable` attribute is included anywhere else in the document.*/
-/* *    Otherwise it causes space to appear at the top and bottom of elements*/
-/* *    that receive the `clearfix` class.*/
-/* * 2. The use of `table` rather than `block` is only necessary if using*/
-/* *    `:before` to contain the top-margins of child elements.*/
-/* *!*/
+/*
+ * Extends the .sr-only class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
 
-/*.clearfix::before,*/
-/*.clearfix::after {*/
-/*  content: " ";*/
-/*  display: table;*/
-/*}*/
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
 
-/*.clearfix::after {*/
-/*  clear: both;*/
-/*}*/
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
 
-/*!* ==========================================================================*/
-/*   EXAMPLE Media Queries for Responsive Design.*/
-/*   These examples override the primary ('mobile first') styles.*/
-/*   Modify as content requires.*/
-/*   ========================================================================== *!*/
+.invisible {
+  visibility: hidden;
+}
 
-/*@media only screen and (min-width: 35em) {*/
-/*  !* Style adjustments for viewports that meet the condition *!*/
-/*}*/
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
 
-/*@media print,*/
-/*(-webkit-min-device-pixel-ratio: 1.25),*/
-/*(min-resolution: 1.25dppx),*/
-/*(min-resolution: 120dpi) {*/
-/*  !* Style adjustments for high resolution devices *!*/
-/*}*/
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
 
-/*!* ==========================================================================*/
-/*   Print styles.*/
-/*   Inlined to avoid the additional HTTP request:*/
-/*   https://www.phpied.com/delay-loading-your-print-css/*/
-/*   ========================================================================== *!*/
+.clearfix::after {
+  clear: both;
+}
 
-/*@media print {*/
-/*  *,*/
-/*  *::before,*/
-/*  *::after {*/
-/*    background: #fff !important;*/
-/*    color: #000 !important;*/
-/*    !* Black prints faster *!*/
-/*    box-shadow: none !important;*/
-/*    text-shadow: none !important;*/
-/*  }*/
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
 
-/*  a,*/
-/*  a:visited {*/
-/*    text-decoration: underline;*/
-/*  }*/
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
 
-/*  a[href]::after {*/
-/*    content: " (" attr(href) ")";*/
-/*  }*/
+@media print,
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
 
-/*  abbr[title]::after {*/
-/*    content: " (" attr(title) ")";*/
-/*  }*/
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
 
-/*  !**/
-/*   * Don't show links that are fragment identifiers,*/
-/*   * or use the `javascript:` pseudo protocol*/
-/*   *!*/
-/*  a[href^="#"]::after,*/
-/*  a[href^="javascript:"]::after {*/
-/*    content: "";*/
-/*  }*/
+@media print {
+  *,
+  *::before,
+  *::after {
+    background: #fff !important;
+    color: #000 !important;
+    /* Black prints faster */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
 
-/*  pre {*/
-/*    white-space: pre-wrap !important;*/
-/*  }*/
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
 
-/*  pre,*/
-/*  blockquote {*/
-/*    border: 1px solid #999;*/
-/*    page-break-inside: avoid;*/
-/*  }*/
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
 
-/*  !**/
-/*   * Printing Tables:*/
-/*   * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables*/
-/*   *!*/
-/*  thead {*/
-/*    display: table-header-group;*/
-/*  }*/
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
 
-/*  tr,*/
-/*  img {*/
-/*    page-break-inside: avoid;*/
-/*  }*/
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
 
-/*  p,*/
-/*  h2,*/
-/*  h3 {*/
-/*    orphans: 3;*/
-/*    widows: 3;*/
-/*  }*/
+  pre {
+    white-space: pre-wrap !important;
+  }
 
-/*  h2,*/
-/*  h3 {*/
-/*    page-break-after: avoid;*/
-/*  }*/
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
 
-/*}*/
+  /*
+   * Printing Tables:
+   * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+   */
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+
+}
+
 

@@ -1,0 +1,243 @@
+@import
+url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+.modal-container{
+  position: fixed;
+  background-color: rgba(0,0,0,0);
+
+  display: flex;
+  top:400px;
+  left:400px;
+  height:100vh;
+  width:100vh;
+  align-content: center;
+  justify-content: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+  opacity: 0.5;
+  pointer-events: none;
+  transition:opacity 0.3s ease;
+}
+button {
+  background-color: #47a386;
+  border:0;
+  border-radius:5px;
+  box-shadow:0 2px 4px rgba(0,0,0,0.2);
+  color:#fff;
+  padding: 10px 25 px;
+  font-size:14px;
+}
+
+.modal {
+  border-radius:5px;
+  padding: 30px 50px;
+  background-color: #fff;
+  box-shadow:0 2px 4px rgba(0,0,0,0.2);
+  width:500px;
+  max-width: 100%;
+}
+
+.modal h1{
+  margin:0;
+}
+
+.modal p{
+  font-size:14px;
+  opacity:0.7;
+}
+
+.modal-container.show{
+  pointer-events: auto;
+  opacity: 1;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #e6e8ed;
+  color: #666666;
+  font-family: "Montserrat", sans-serif;
+
+  min-height: 100vh;
+}
+
+.material-icons-outlined {
+  vertical-align: middle;
+  line-height: 1px;
+}
+
+.text-primary {
+  color: #666666;
+}
+
+.text-blue {
+  color: #246dec;
+}
+
+.text-red {
+  color: #cc3c43;
+}
+
+.text-green {
+  color: #367952;
+}
+
+.text-orange {
+  color: #f5b74f;
+}
+
+.font-weight-bold {
+  font-weight: 600;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 260px 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 3fr;
+  grid-template-areas:
+    "sidebar header header header"
+    "sidebar main main main";
+  height: 100vh;
+}
+
+
+/* ---------- HEADER ---------- */
+
+.header {
+  grid-area: header;
+  height: 70px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 700px 0 700px;
+  box-shadow: 0 6px 7px -4px rgba(0, 0, 0, 0.2);
+}
+
+.menu-icon {
+  display: none;
+}
+
+
+/* ---------- SIDEBAR ---------- */
+
+#sidebar {
+  grid-area: sidebar;
+  height: 100%;
+  background-color: #21232d;
+  color: #9799ab;
+  overflow-y: auto;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.sidebar-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px 20px 20px;
+  margin-bottom: 30px;
+}
+
+.sidebar-title > span {
+  display: none;
+}
+
+.sidebar-brand {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.sidebar-list {
+  padding: 0;
+  margin-top: 15px;
+  list-style-type: none;
+}
+
+.sidebar-list-item {
+  padding: 20px 20px 20px 20px;
+}
+
+/*Makes it look nice when hovering*/
+
+.sidebar-list-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.sidebar-list-item > a {
+  text-decoration: none;
+  color: #9799ab;
+}
+
+/* ---------- TABLE ---------- */
+
+
+
+/* ---------- END OF TABLE ---------- */
+
+/* ---------- MAIN ---------- */
+
+
+.main-container {
+  grid-area: main;
+
+  padding: 20px 20px;
+}
+
+.table{
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-title {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.main-title > p {
+  font-size: 20px;
+}
+
+/*Footer stretch*/
+footer {
+  margin-top: auto;
+  background-color: #44454A;
+
+}
+
+.footer_notes{
+  position: relative;
+  text-align: center;
+  bottom: 100px;
+  padding-left: 100px;
+  overflow: hidden;
+  max-width:100%;
+}
+
+/*Alternating table row colour*/
+tbody td{
+  padding: 30px;
+}
+
+tbody tr:nth-child(odd){
+  background-color: #4C8BF5;
+  color: #fff;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: separate;
+}
+
+th {
+  height: 100px
+}
+
+tr{
+  height: 50px
+}

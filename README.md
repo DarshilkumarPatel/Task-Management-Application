@@ -1,4 +1,4 @@
-# Assignment 01 - Spam Detector (Instructions)
+# Assignment 01 - Spam Detector (Instructions on Running the Program)
 > Course: CSCI 2020U: Software Systems Development and Integration
 
 This is the template for your Assignment 01.

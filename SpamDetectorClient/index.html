@@ -23,50 +23,112 @@
   <link rel="stylesheet" href="css/main.css">
 
   <meta name="theme-color" content="#fafafa">
+  <link rel="stylesheet" href="css/style.css">
+  <!--  Import Icons-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
 </head>
+
+  <!-- Add your site or application content here -->
 
 <body>
 
-<header>
-  <h3>Spam Detector Dashboard</h3>
-</header>
-  <!-- Add your site or application content here -->
-
-<!--<div id="sidebar">-->
-<!--  <div class="toggle-btn">-->
-<!--    <span></span>-->
-<!--    <span></span>-->
-<!--    <span></span>-->
-<!--  </div>-->
-<!--  <div class = "btn-group">-->
-<!--  <ul>-->
-<!--      <button>> Dashboard</button>-->
-<!--      <button>> About</button>-->
-<!--  </ul>-->
-<!--  </div>-->
-
-<!--</div>-->
-
-<div class="container">
-  <div class="buttons">
-    <button id="button1">> Dashboard</button>
-    <button id="button2">> About</button>
-  </div>
-  <div class="description">
-    <div id="description1" class="description-item active">
-      <h3>Spam Analysis Dashboard</h3>
-      <p>The table below displays the results of our spam detection algorithm.</p>
-    </div>
-    <div id="description2" class="description-item">
-      <h3>Our team</h3>
-      <p>This website was brought to you by.</p>
-    </div>
+<div class="modal-container" id="modal-container">
+  <div class = "modal">
+    <h1><b>About Us</b></h1>
+    <p><b></b>We're a small group in Ontario Tech University that designed this webpage.</p>
+    <ul>
+      <li>Darshil Patel</li>
+      <li>Tasmim Abrar</li>
+      <li>Muhammad Ali</li>
+    </ul>
+    <button id="close">Close Me</button>
   </div>
 </div>
 
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+<div class="grid-container">
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-left">
+      <h2>Assignment - I</h2>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- Sidebar -->
+  <aside id="sidebar">
+    <div class="sidebar-title">
+      <div class="sidebar-brand">
+        <span class="material-icons-outlined">send</span> Spam Mail Detector
+      </div>
+    </div>
+
+    <ul class="sidebar-list">
+      <li class="sidebar-list-item">
+        <a href="#" target="_blank">
+          <button id="button1" class="material-icons-outlined">dashboard</button> Dashboard
+        </a>
+      </li>
+      <li class="sidebar-list-item">
+        <a href="#" target="_blank">
+          <button id="open" class="material-icons-outlined">portrait</button> About Us
+        </a>
+      </li>
+    </ul>
+  </aside>
+  <!-- End Sidebar -->
+
+  <!-- Main -->
+  <main class="main-container">
+    <div class="main-title">
+      <p class="font-weight-bold">Spam Analysis Dashboard</p>
+        <p>The table below displays the results of our spam detection algorithm.</p>
+
+        <div class="table" style="overflow-y: scroll;height:400px">
+          <table id="chart">
+            <thead>
+            <tr>
+              <th>File</th>
+              <th>Spam Probability(%)</th>
+              <th>Class</th>
+            </tr>
+            <tr>
+              <td>Column 1</td>
+              <td>Column 2</td>
+              <td>Column 3</td>
+            </tr>
+            <tr>
+              <td>Column 1</td>
+              <td>Column 2</td>
+              <td>Column 3</td>
+            </tr>
+            <tr>
+              <td>Column 1</td>
+              <td>Column 2</td>
+              <td>Column 3</td>
+            </tr>
+            <tr>
+              <td>Column 1</td>
+              <td>Column 2</td>
+              <td>Column 3</td>
+            </tr>
+            </thead>
+          </table>
+        </div>
+    </div>
+    <div class="boxes">
+      <form>
+        <p><b>Performance of the model.</b></p>
+        <label for="accuracy">Accuracy:</label>
+        <input type="text" id="accuracy" name="accuracy"><br><br>
+        <label for="precision">Precision:</label>
+        <input type="text" id="precision" name="precision"><br><br>
+      </form>
+    </div>
+  </main>
+
+  <!-- Popup -->
+
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
@@ -74,20 +136,14 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
+  <script src = "js/main.js"></script>
 
 
   <footer>
     <p>copyright &copy; CSCI 2020U - Winter 2023</p>
   </footer>
 
-
+  </div>
 </body>
 
 </html>
-
-
-<!--<div class = "btn-group">-->
-<!--  <button>> Dashboard</button>-->
-<!--  <button>> About</button>-->
-<!--</div>-->
-
