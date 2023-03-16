@@ -15,7 +15,7 @@ url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
   min-height: 100vh;
   box-sizing: border-box;
   opacity: 0.5;
-  pointer-events: none;
+  pointer-events: auto;
   transition:opacity 0.3s ease;
 }
 button {
