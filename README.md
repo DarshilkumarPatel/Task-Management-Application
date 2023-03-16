@@ -45,11 +45,11 @@ INSTRUCTIONS FOR TRAINING THE MODEL ON YOUR DATASET
 - Obtain a set of data in text form (you need a dataset for ham and spam individually), which you wish to train our program on
 - Once you have your training data, paste it into 'src/main/resources/data/train/ham' and 'src/main/resources/data/train/spam' respectively.
 - After you have the files in the required location, make sure you change the file directory inside the SpamResources.java (198) --> 'Url url' to either "/data/train/ham" or "/data/train/spam" to make sure you are looping through either ham or spam. 
--Now, deploy the server, and load the url 'http://localhost:8080/spamDetector-1.0/api/spam/createtxt' once you've done so, you will have all your txt word count data into a text file located in 'spamDetectorServer\target\spamDetector-1.0\WEB-INF\classes\data\train\ham\output'  or 'spamDetectorServer\target\spamDetector-1.0\WEB-INF\classes\data\train\spam\output' which will correspond to your modification in the previous step.
--Copy those output files and paste them into the 'src/main/resources/data/train/ham_data' or 'src/main/resources/data/train/spam_data' accordingly. 
+- Now, deploy the server, and load the url 'http://localhost:8080/spamDetector-1.0/api/spam/createtxt' once you've done so, you will have all your txt word count data into a text file located in 'spamDetectorServer\target\spamDetector-1.0\WEB-INF\classes\data\train\ham\output'  or 'spamDetectorServer\target\spamDetector-1.0\WEB-INF\classes\data\train\spam\output' which will correspond to your modification in the previous step.
+- Copy those output files and paste them into the 'src/main/resources/data/train/ham_data' or 'src/main/resources/data/train/spam_data' accordingly. 
 NOTE: It is quite easy to lose track of what you are doing so please follow the steps properly.
--Now use the link "http://localhost:8080/spamDetector-1.0/api/spam/createjson" on your browser, which will return a json object. Save this file into 'train/ham_json' or 'train/spam_json'. 
--All these steps will provide the program with a reference and it'll work it's magic to show you the output.
+- Now use the link "http://localhost:8080/spamDetector-1.0/api/spam/createjson" on your browser, which will return a json object. Save this file into 'train/ham_json' or 'train/spam_json'. 
+- All these steps will provide the program with a reference and it'll work it's magic to show you the output.
 
 
 
