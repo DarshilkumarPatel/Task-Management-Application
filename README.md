@@ -1,11 +1,7 @@
 ### Assignment 01 - Spam Detector 
 > Course: CSCI 2020U: Software Systems Development and Integration
 
-##Group Members
-
-Mohammad Tasmim Abrar,
-Darshil Patel,
-Muhammad Ali
+Darshil Patel
 
 ## Project Information
 Our program should allow the user to efficiently sample through a dataset, in order to filter out spam files from ham files. Using the functions defined in our API can allow the user to use the program in order to create a data set for each individual files, and that dataset can be further combed in order to find out the frequency of occurances of each word in each file. It's really not complicated! 
